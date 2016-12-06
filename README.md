@@ -8,7 +8,7 @@ contributed by [Neil Pankey][3]. Solarized Inspired by this [post][4]
 Installation
 ------------
 
-Import the `.reg` file of choice, e.g. `regedit /s monokai.reg`.
+Import the `monokai.reg` file of choice, e.g. `regedit /s monokai.reg`.
 
 If you're using these themes with PowerShell (especially the light), I
 recommend updating the default error and warning colors in your profile at
@@ -25,7 +25,9 @@ new shortcut will have your updated colors. Modify the properties of the new
 shortcut so "Start in:" is `%HOMEDRIVE%%HOMEPATH%`. Replace the Start Menu shortcut
 `C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk`.
 This has the advantage of also affecting the Windows 8/10 Win+X menu shortcuts!
-    
+
+In case you want revert colors back to default there is `reset.reg`.
+
 Screenshots
 ------------
 
