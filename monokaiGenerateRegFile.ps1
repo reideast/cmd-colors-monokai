@@ -1,24 +1,41 @@
 $outFile = "monokai.reg"
 
+#monokai colors: from http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/
+#272822 darker gray
+#49483E dark gray - UNUSED
+#75715E gray
+#66D9EF cyan
+#A6E22E green
+#AE81FF purple
+#E6DB74 yellow
+#F92672 magenta
+#FD971F orange
+#F8F8F0 white
+
+#added colors
+#118FA7 dark cyan
+#85BB1A dark green
+#CB064D dark megenta
+
 $rgbArray = @()
              #HEX     # NR  cmd.exe      PowerShell   Sublime Name Solar Name
              #------- # --  -------      -----------  ------------ --------- 
 $rgbArray += "272822" # 00  Black        Black        BG           base03    
-$rgbArray += "F8F8F2" # 01  Blue         DarkBlue     FG           base0     
-$rgbArray += "F92672" # 02  Green        DarkGreen    Comment      base01    
-$rgbArray += "F8F8F2" # 03  Aqua         DarkCyan     FG           base1     
+$rgbArray += "F8F8F0" # 01  Blue         DarkBlue     FG           base0     
+$rgbArray += "85BB1A" # 02  Green        DarkGreen    Comment      base01    
+$rgbArray += "E6DB74" # 03  Aqua         DarkCyan     FG           base1     
 $rgbArray += "FD971F" # 04  Red          DarkRed      Operator     orange    
 $rgbArray += "AE81FF" # 05  Purple       DarkMagenta  Field        violet    
-$rgbArray += "75715E" # 06  Yellow       DarkYellow   Line Num     base00    
+$rgbArray += "A5A290" # 06  Yellow       DarkYellow   Line Num     base00    
 $rgbArray += "F8F8F2" # 07  White        Gray         FG           base2     
-$rgbArray += "75715E" # 08  Gray         DarkGray     Select BG    base02    
-$rgbArray += "F92672" # 09  LightBlue    Blue         Method       blue      
+$rgbArray += "A5A290" # 08  Gray         DarkGray     Select BG    base02    
+$rgbArray += "66D9EF" # 09  LightBlue    Blue         Method       blue      
 $rgbArray += "A6E22E" # 10  LightGreen   Green        String       green     
 $rgbArray += "66D9EF" # 11  LightAqua    Cyan         String       cyan      
-$rgbArray += "F92672" # 12  LightRed     Red          Bracket      red       
+$rgbArray += "CB064D" # 12  LightRed     Red          Bracket      red       
 $rgbArray += "F92672" # 13  LightPurple  Magenta      TaskTag      magenta   
 $rgbArray += "FD971F" # 14  LightYellow  Yellow       Operator     yellow    
-$rgbArray += "F8F8F2" # 15  BrightWhite  White        FG           base3     
+$rgbArray += "F8F8F0" # 15  BrightWhite  White        FG           base3     
 $screenColor = "000001"
 $popupColor = "0000f6"
 
